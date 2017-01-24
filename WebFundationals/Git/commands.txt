@@ -1,0 +1,16 @@
+cd Desktop
+copy NUL index.html
+copy NUL styles.css
+copy NUL aboutMe.txt
+git init
+git add .
+git commit  -m "add three empty files"
+echo "My name is Jason Qiu. I am  studying coding now" > aboutMe.txt
+git add aboutMe.txt
+git commit -m "updated aboutMe"
+echo "my favorite movie is the Shawshank Redemption"  >> aboutMe.txt
+git add aboutMe.txt
+git commit -m "added favorite movie to aboutMe"
+git log
+git revert -n 345f8eb
+git commit -m "revert to my last commit and remove favorite movie"

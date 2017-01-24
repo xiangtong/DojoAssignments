@@ -1,0 +1,22 @@
+C:\Users\qiuxt\Desktop\DojoAssignments>dir /b/s
+C:\Users\qiuxt\Desktop\DojoAssignments\iOS
+C:\Users\qiuxt\Desktop\DojoAssignments\MEAN
+C:\Users\qiuxt\Desktop\DojoAssignments\netCore
+C:\Users\qiuxt\Desktop\DojoAssignments\Python
+C:\Users\qiuxt\Desktop\DojoAssignments\Ruby
+C:\Users\qiuxt\Desktop\DojoAssignments\WebFundationals
+C:\Users\qiuxt\Desktop\DojoAssignments\iOS\about.txt
+C:\Users\qiuxt\Desktop\DojoAssignments\MEAN\about.txt
+C:\Users\qiuxt\Desktop\DojoAssignments\netCore\about.txt
+C:\Users\qiuxt\Desktop\DojoAssignments\Python\about.txt
+C:\Users\qiuxt\Desktop\DojoAssignments\Ruby\about.txt
+C:\Users\qiuxt\Desktop\DojoAssignments\WebFundationals\about.txt
+C:\Users\qiuxt\Desktop\DojoAssignments\WebFundationals\CSS
+C:\Users\qiuxt\Desktop\DojoAssignments\WebFundationals\Git
+C:\Users\qiuxt\Desktop\DojoAssignments\WebFundationals\HTML
+C:\Users\qiuxt\Desktop\DojoAssignments\WebFundationals\Javascript
+C:\Users\qiuxt\Desktop\DojoAssignments\WebFundationals\CSS\about.txt
+C:\Users\qiuxt\Desktop\DojoAssignments\WebFundationals\Git\about.txt
+C:\Users\qiuxt\Desktop\DojoAssignments\WebFundationals\HTML\about.txt
+C:\Users\qiuxt\Desktop\DojoAssignments\WebFundationals\HTML\indentation.html
+C:\Users\qiuxt\Desktop\DojoAssignments\WebFundationals\Javascript\about.txt
