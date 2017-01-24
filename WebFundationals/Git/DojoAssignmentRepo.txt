@@ -1,0 +1,11 @@
+cd DojoAssignments
+git init
+git add .
+git remote add origin https://github.com/xiangtong/DojoAssignments.git
+git push origin master
+copy NUL readme.md
+echo "All files and folders here are for the assignments of CodingDojo" > readme.md
+git status
+git add readme.md
+git commit -m "add readme.md"
+git push origin master
