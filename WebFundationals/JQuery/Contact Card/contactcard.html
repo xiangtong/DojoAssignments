@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <style>
+  /** {outline: 2px dotted rgb(231,30,38);}*/
+    #wrapper{
+      margin: auto;
+      width: 970px;
+      text-align: left;
+    }
+    input[type='text']{
+      margin: 5px;
+    }
+    #adduser{
+      display: inline-block;
+      width: 350px;
+      margin-left: 50px;
+    }
+    #displayuser{
+      display: inline-block;
+      width: 300px;
+      position: relative;
+      left: 150px;
+    }
+    #desct{
+      display: none;
+    }
+    .user{
+      border: 1px solid silver;
+      margin: 10px;
+      height: 100px;
+    }
+    }
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript"> // src="jqfunction.js"
+    $('document').ready(function(){
+      $('form').submit(function(){
+        var newuser='<div class="user"><h3>'+$('input:eq(0)').val()+' '+$('input:eq(1)').val()+'</h3><p>Click for description!</p><p id=\'desct\'>'+$('input:eq(2)').val()+'</p></div>';
+        $('#displayuser').append(newuser);
+        return false;
+      });
+      $('input[type=text], textarea').focus(function(){
+        $(this).val("");
+      });
+      $('#displayuser').on('click','.user',function(){
+        // console.log($(this).children());
+        // console.log($(this).children('h3'));
+        $(this).children().toggle();
+      });
+      // $('.user').on('click',function(){
+      //   console.log($(this));
+      //   $(this).children().toggle();
+      // })
+      // console.log($('#wrapper').children('#adduser').children('form'));
+    });
+  </script>
+</head>
+<body>
+  <div id="wrapper">
+    <div id="adduser">
+      <h1>Add User</h1>
+      <hr>
+      <form class="" action="index.html" method="post">
+        <label for="">First Name:</label>
+        <input id="firstname" type="text" name="" value="First Name"></br>
+        <label for="">Last Name:</label>
+        <input id="lastname" type="text" name="" value="Last Name"></br>
+        <label for="">Description:</label>
+        <input id="desc" type="textarea" name="" value="Enter Description"></br>
+        <input type="submit" name="" value="Add User">
+      </form>
+    </div>
+    <div id="displayuser">
+      <div class="user">
+        <h3>FirstName Lastname</h3>
+        <p>Click for description!</p>
+        <p id='desct'>sdfadsfadsfadsfadsf</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
